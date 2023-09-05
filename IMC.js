@@ -1,4 +1,5 @@
 var nome = prompt('Digite seu nome:')
+var sexo = prompt( nome + 'digite seu genero:')
 var altura = prompt(nome + ' digite sua altura:')
 var peso = prompt(nome + ' digite seu peso:')
 
