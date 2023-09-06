@@ -3,7 +3,7 @@ var sexo = prompt( nome + 'digite seu genero:')
 var idade = prompt( nome + 'digite seu idade:')
 var contribuicao = prompt( nome + 'digite seu contribuicao:')
 
-if(sexo = 'homem') {
+if(sexo == 'homem') {
     var conta = idade + contribuicao;
     if(conta >= 95) {
         alert(nome + ' você pode se aposentar')
